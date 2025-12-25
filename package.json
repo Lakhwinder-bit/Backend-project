@@ -10,10 +10,11 @@
   "author": "Lakhwinder",
   "type": "module",
   "main": "index.js",
-   "devDependencies": {
-        "nodemon": "^3.1.11"
-      },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4"
+  },
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   }
 }
